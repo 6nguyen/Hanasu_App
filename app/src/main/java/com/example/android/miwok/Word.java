@@ -10,16 +10,11 @@ public class Word {
 
 // Constructor
     public Word(String eng, String miwok){
-        String englishWord = eng;
-        String miwokWOrd = miwok;
+        mEnglishWord = eng;
+        mMiwokWord = miwok;
     }
 
 // Accessor Methods
-    public String getEnglish(){
-        return mEnglishWord;
-    }
-
-    public String getMiwok(){
-        return mMiwokWord;
-    }
+    public String getEnglish(){return mEnglishWord;}
+    public String getMiwok(){return mMiwokWord;}
 }
