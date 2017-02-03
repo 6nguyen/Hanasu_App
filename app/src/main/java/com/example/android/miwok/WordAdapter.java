@@ -43,6 +43,5 @@ public class WordAdapter extends ArrayAdapter<Word> {
         //iconView.setImageResource(currentWord.getImageResourceId());
 
         return listItemView;
-
     }
 }
