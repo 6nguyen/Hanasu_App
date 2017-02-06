@@ -33,14 +33,20 @@ public class WordAdapter extends ArrayAdapter<Word> {
 
         Word currentWord = getItem(position);
 
-        TextView miwokTextView = (TextView)listItemView.findViewById(R.id.miwok_text_view);
-        miwokTextView.setText(currentWord.getJapanese());
+        TextView japaneseTextView = (TextView)listItemView.findViewById(R.id.japanese_text_view);
+        japaneseTextView.setText(currentWord.getJapanese());
 
         TextView englishTextView = (TextView)listItemView.findViewById(R.id.english_text_view);
         englishTextView.setText(currentWord.getEnglish());
 
-        ImageView iconView = (ImageView)listItemView.findViewById(R.id.image);
-        iconView.setImageResource(currentWord.getImageResourceId());
+        ImageView iconView = (ImageView) listItemView.findViewById(R.id.image);
+        if (currentWord.hasImage()) {
+            iconView.setImageResource(currentWord.getImageResourceId());
+        }
+        else {
+            iconView.setVisibility(View.GONE);
+        }
+
 
         return listItemView;
     }

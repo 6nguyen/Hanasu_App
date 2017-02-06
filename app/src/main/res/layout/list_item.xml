@@ -21,7 +21,7 @@
         android:paddingLeft="16dp" >
 
         <TextView
-            android:id="@+id/miwok_text_view"
+            android:id="@+id/japanese_text_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             tools:text="lutti" />

@@ -8,7 +8,7 @@ package com.example.android.miwok;
 public class Word {
     private String mEnglishWord;
     private String mJapaneseWord;
-    private int mImageResourceId;
+    private int mImageResourceId = -1;
 
     /** Constructor with NO image
      *  Create a Word Object instance containing a String's Japanese and English translation
@@ -40,4 +40,10 @@ public class Word {
     public String getEnglish(){return mEnglishWord;}
     public String getJapanese(){return mJapaneseWord;}
     public int getImageResourceId(){return mImageResourceId;}
+
+
+    public boolean hasImage(){
+        return mImageResourceId != -1;
+    }
+
 }
