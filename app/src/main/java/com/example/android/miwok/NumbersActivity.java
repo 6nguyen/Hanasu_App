@@ -15,16 +15,16 @@ public class NumbersActivity extends AppCompatActivity {
 
         ArrayList<Word> words = new ArrayList<Word>();
 
-        words.add(new Word("one","ichi", R.mipmap.ic_launcher));
-        words.add(new Word("two","ni", R.mipmap.ic_launcher));
-        words.add(new Word("three","san", R.mipmap.ic_launcher));
-        words.add(new Word("four","shi/yon", R.mipmap.ic_launcher));
-        words.add(new Word("five","go", R.mipmap.ic_launcher));
-        words.add(new Word("six","roku", R.mipmap.ic_launcher));
-        words.add(new Word("seven","schichi/nana", R.mipmap.ic_launcher));
-        words.add(new Word("eight","hachi", R.mipmap.ic_launcher));
-        words.add(new Word("nine","kyu", R.mipmap.ic_launcher));
-        words.add(new Word("ten","ju", R.mipmap.ic_launcher));
+        words.add(new Word("one","ichi", R.drawable.number_one));
+        words.add(new Word("two","ni", R.drawable.number_two));
+        words.add(new Word("three","san", R.drawable.number_three));
+        words.add(new Word("four","shi/yon", R.drawable.number_four));
+        words.add(new Word("five","go", R.drawable.number_five));
+        words.add(new Word("six","roku", R.drawable.number_six));
+        words.add(new Word("seven","schichi/nana", R.drawable.number_seven));
+        words.add(new Word("eight","hachi", R.drawable.number_eight));
+        words.add(new Word("nine","kyu", R.drawable.number_nine));
+        words.add(new Word("ten","ju", R.drawable.number_ten));
         words.add(new Word("eleven","ju ichi", R.mipmap.ic_launcher));
         words.add(new Word("twelve","ju ni", R.mipmap.ic_launcher));
         words.add(new Word("thirteen","ju san", R.mipmap.ic_launcher));
