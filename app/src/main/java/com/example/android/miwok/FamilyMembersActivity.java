@@ -15,18 +15,18 @@ public class FamilyMembersActivity extends AppCompatActivity {
 
         ArrayList<Word> words = new ArrayList<Word>();
 
-        words.add(new Word("father","Otoo-san"));
-        words.add(new Word("mother","Okaa-san"));
-        words.add(new Word("son","musuko"));
-        words.add(new Word("daughter","musume"));
-        words.add(new Word("older brother","Onii-san"));
-        words.add(new Word("younger brother","Otouto"));
-        words.add(new Word("older sister","Onee-san"));
-        words.add(new Word("younger sister","Imouto"));
-        words.add(new Word("grandmother","Obaa-san"));
-        words.add(new Word("grandfather","Ojii-san"));
-        words.add(new Word("aunt","Oba-san"));
-        words.add(new Word("uncle","Oji-san"));
+        words.add(new Word("father","Otoo-san", R.mipmap.ic_launcher));
+        words.add(new Word("mother","Okaa-san", R.mipmap.ic_launcher));
+        words.add(new Word("son","musuko", R.mipmap.ic_launcher));
+        words.add(new Word("daughter","musume", R.mipmap.ic_launcher));
+        words.add(new Word("older brother","Onii-san", R.mipmap.ic_launcher));
+        words.add(new Word("younger brother","Otouto", R.mipmap.ic_launcher));
+        words.add(new Word("older sister","Onee-san", R.mipmap.ic_launcher));
+        words.add(new Word("younger sister","Imouto", R.mipmap.ic_launcher));
+        words.add(new Word("grandmother","Obaa-san", R.mipmap.ic_launcher));
+        words.add(new Word("grandfather","Ojii-san", R.mipmap.ic_launcher));
+        words.add(new Word("aunt","Oba-san", R.mipmap.ic_launcher));
+        words.add(new Word("uncle","Oji-san", R.mipmap.ic_launcher));
 
 
         // Adding a WordAdapter list of word pairs with dividers

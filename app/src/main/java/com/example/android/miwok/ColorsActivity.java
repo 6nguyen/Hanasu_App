@@ -15,14 +15,14 @@ public class ColorsActivity extends AppCompatActivity {
 
         ArrayList<Word> words = new ArrayList<Word>();
 
-        words.add(new Word("red", "aka"));
-        words.add(new Word("green", "midori iro"));
-        words.add(new Word("brown", "cha iro"));
-        words.add(new Word("grey", "nezumi iro"));
-        words.add(new Word("black", "kuro"));
-        words.add(new Word("white", "shiro"));
-        words.add(new Word("beige", "be-ju"));
-        words.add(new Word("mustard yellow", "oudo iro"));
+        words.add(new Word("red", "aka", R.mipmap.ic_launcher));
+        words.add(new Word("green", "midori iro", R.mipmap.ic_launcher));
+        words.add(new Word("brown", "cha iro", R.mipmap.ic_launcher));
+        words.add(new Word("grey", "nezumi iro", R.mipmap.ic_launcher));
+        words.add(new Word("black", "kuro", R.mipmap.ic_launcher));
+        words.add(new Word("white", "shiro", R.mipmap.ic_launcher));
+        words.add(new Word("beige", "be-ju", R.mipmap.ic_launcher));
+        words.add(new Word("mustard yellow", "oudo iro", R.mipmap.ic_launcher));
 
 
 

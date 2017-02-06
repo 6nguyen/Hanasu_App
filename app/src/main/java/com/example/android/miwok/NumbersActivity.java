@@ -15,27 +15,27 @@ public class NumbersActivity extends AppCompatActivity {
 
         ArrayList<Word> words = new ArrayList<Word>();
 
-        words.add(new Word("one","ichi"));
-        words.add(new Word("two","ni"));
-        words.add(new Word("three","san"));
-        words.add(new Word("four","shi/yon"));
-        words.add(new Word("five","go"));
-        words.add(new Word("six","roku"));
-        words.add(new Word("seven","schichi/nana"));
-        words.add(new Word("eight","hachi"));
-        words.add(new Word("nine","kyu"));
-        words.add(new Word("ten","ju"));
-        words.add(new Word("eleven","ju ichi"));
-        words.add(new Word("twelve","ju ni"));
-        words.add(new Word("thirteen","ju san"));
-        words.add(new Word("fourteen","ju yon"));
-        words.add(new Word("fifteen","ju go"));
-        words.add(new Word("twenty","ni-ju"));
-        words.add(new Word("thirty","san-ju"));
-        words.add(new Word("forty","yon-ju"));
-        words.add(new Word("one hundred","hyaku"));
-        words.add(new Word("two hundred","nihyaku"));
-        words.add(new Word("three hundred","sanbyaku"));
+        words.add(new Word("one","ichi", R.mipmap.ic_launcher));
+        words.add(new Word("two","ni", R.mipmap.ic_launcher));
+        words.add(new Word("three","san", R.mipmap.ic_launcher));
+        words.add(new Word("four","shi/yon", R.mipmap.ic_launcher));
+        words.add(new Word("five","go", R.mipmap.ic_launcher));
+        words.add(new Word("six","roku", R.mipmap.ic_launcher));
+        words.add(new Word("seven","schichi/nana", R.mipmap.ic_launcher));
+        words.add(new Word("eight","hachi", R.mipmap.ic_launcher));
+        words.add(new Word("nine","kyu", R.mipmap.ic_launcher));
+        words.add(new Word("ten","ju", R.mipmap.ic_launcher));
+        words.add(new Word("eleven","ju ichi", R.mipmap.ic_launcher));
+        words.add(new Word("twelve","ju ni", R.mipmap.ic_launcher));
+        words.add(new Word("thirteen","ju san", R.mipmap.ic_launcher));
+        words.add(new Word("fourteen","ju yon", R.mipmap.ic_launcher));
+        words.add(new Word("fifteen","ju go", R.mipmap.ic_launcher));
+        words.add(new Word("twenty","ni-ju", R.mipmap.ic_launcher));
+        words.add(new Word("thirty","san-ju", R.mipmap.ic_launcher));
+        words.add(new Word("forty","yon-ju", R.mipmap.ic_launcher));
+        words.add(new Word("one hundred","hyaku", R.mipmap.ic_launcher));
+        words.add(new Word("two hundred","nihyaku", R.mipmap.ic_launcher));
+        words.add(new Word("three hundred","sanbyaku", R.mipmap.ic_launcher));
 
     // Adding a WordAdapter list of word pairs with dividers
         WordAdapter adapter = new WordAdapter(this, words);
