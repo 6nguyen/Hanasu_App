@@ -16,6 +16,7 @@
         android:layout_height="@dimen/list_item_height" />
 
     <LinearLayout
+        android:id="@+id/text_container"
         android:layout_width="90dp"
         android:layout_height="match_parent"
         android:layout_weight="1"

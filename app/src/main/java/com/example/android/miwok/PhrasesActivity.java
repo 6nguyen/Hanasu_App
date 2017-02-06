@@ -32,7 +32,7 @@ public class PhrasesActivity extends AppCompatActivity {
         words.add(new Word("Where is the toilet?", "Toire wa doko desu ka?"));
 
         // Adding a WordAdapter list of word pairs with dividers
-        WordAdapter adapter = new WordAdapter(this, words);
+        WordAdapter adapter = new WordAdapter(this, words, R.color.category_phrases);
         ListView listView = (ListView) findViewById(R.id.list);
         listView.setAdapter(adapter);
     }
