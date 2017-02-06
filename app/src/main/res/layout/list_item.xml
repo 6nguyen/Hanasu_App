@@ -3,33 +3,43 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="horizontal"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:padding="16dp"
-    android:id="@id/list_item">
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/list_item_height"
+    android:id="@id/list_item"
+    android:background="@color/category_phrases"
+    >
 
     <ImageView
+        android:background="@color/pink_background"
         android:src="@mipmap/ic_launcher"
         android:id="@+id/image"
-        android:layout_width="50dp"
-        android:layout_height="50dp" />
+        android:layout_width="@dimen/list_item_height"
+        android:layout_height="@dimen/list_item_height" />
 
     <LinearLayout
         android:layout_width="90dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:orientation="vertical"
-        android:paddingLeft="16dp" >
+        android:paddingLeft="16dp"
+        android:paddingTop="22dp" >
+
 
         <TextView
             android:id="@+id/japanese_text_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/text_font_size"
             tools:text="lutti" />
 
         <TextView
             android:id="@+id/english_text_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/text_font_size"
             tools:text="one" />
     </LinearLayout>
 
