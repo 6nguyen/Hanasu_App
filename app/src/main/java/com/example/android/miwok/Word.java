@@ -9,7 +9,13 @@ public class Word {
     private String mMiwokWord;
     private int mImageResourceId;
 
-// Constructor
+// Constructor with NO image
+    public Word(String eng, String miwok){
+        mEnglishWord = eng;
+        mMiwokWord = miwok;
+    }
+
+// Constructor with image
     public Word(String eng, String miwok, int imageResourceId){
         mEnglishWord = eng;
         mMiwokWord = miwok;
