@@ -25,7 +25,7 @@ public class Word {
      *  an image.
      * @param eng English translation
      * @param jap Japanese translation
-     * @param imageResourceId
+     * @param imageResourceId Resource ID reference to actual image's location, ie R.drawable.num_1
      */
     public Word(String eng, String jap, int imageResourceId){
         mEnglishWord = eng;
@@ -33,7 +33,10 @@ public class Word {
         mImageResourceId = imageResourceId;
     }
 
-// Accessor Methods
+    /** Accessor Methods
+     *  Get method has no parameters
+     * @return English translation, Miwok translation, or image resource ID
+     */
     public String getEnglish(){return mEnglishWord;}
     public String getJapanese(){return mJapaneseWord;}
     public int getImageResourceId(){return mImageResourceId;}
