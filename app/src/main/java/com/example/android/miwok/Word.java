@@ -44,6 +44,7 @@ public class Word {
     public String getEnglish(){return mEnglishWord;}
     public String getJapanese(){return mJapaneseWord;}
     public int getImageResourceId(){return mImageResourceId;}
+    public int getmAudioResrouceId(){return mAudioResrouceId;}
 
 
     public boolean hasImage(){
