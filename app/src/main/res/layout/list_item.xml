@@ -47,8 +47,9 @@
 
     <ImageButton
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:layout_gravity="center"
+        android:paddingRight="@dimen/play_icon_right_padding"
         android:src="@mipmap/play_icon"
         android:id="@+id/play_Icon"
         />

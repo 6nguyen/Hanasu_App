@@ -21,4 +21,7 @@
 
     <!-- Left padding for each text view -->
     <dimen name="text_view_left_padding">16dp</dimen>
+
+    <!-- Right padding for play icon imageButton -->
+    <dimen name="play_icon_right_padding">10dp</dimen>
 </resources>
