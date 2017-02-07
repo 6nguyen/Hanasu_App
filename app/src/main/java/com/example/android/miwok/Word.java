@@ -46,7 +46,13 @@ public class Word {
     public int getImageResourceId(){return mImageResourceId;}
     public int getmAudioResrouceId(){return mAudioResrouceId;}
 
-
+    /**
+     * Determines whether Word object instance has an image or not.
+     * mImageResourceId is -1 by default, since no real resource ID can be -1.
+     * When the constructor is called, any instance with an image resource ID will change this
+     * value to its corresponding int ID.
+     * @return true if Word object instance has image, otherwise false
+     */
     public boolean hasImage(){
         return mImageResourceId != -1;
     }
