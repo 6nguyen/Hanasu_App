@@ -18,6 +18,7 @@ package com.example.android.miwok;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.view.View.OnClickListener;
 import android.content.Intent;
@@ -79,6 +80,9 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(phrasesIntent);
             }
         });
+
+        ImageView sakura_wallpaper = (ImageView)findViewById(R.id.sakura_wallpaper);
+        sakura_wallpaper.setScaleType(ImageView.ScaleType.FIT_XY);
 
     }
 }

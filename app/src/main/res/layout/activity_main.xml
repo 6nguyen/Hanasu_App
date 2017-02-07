@@ -50,4 +50,10 @@
         android:text="@string/category_phrases"
         android:onClick="openPhrasesList" />
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/sakura_wallpaper"
+        android:src="@drawable/sakura_wallpaper3"/>
+
 </LinearLayout>
