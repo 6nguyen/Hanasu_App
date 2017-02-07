@@ -6,7 +6,6 @@
     android:layout_height="wrap_content"
     android:minHeight="@dimen/list_item_height"
     android:id="@id/list_item"
-    android:background="@color/category_phrases"
     >
 
     <ImageView
@@ -49,6 +48,7 @@
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:src="@mipmap/play_icon"
         android:id="@+id/play_Icon"
         />
