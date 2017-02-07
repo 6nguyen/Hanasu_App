@@ -46,4 +46,11 @@
             tools:text="one" />
     </LinearLayout>
 
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/play_icon"
+        android:id="@+id/play_Icon"
+        />
+
 </LinearLayout>
