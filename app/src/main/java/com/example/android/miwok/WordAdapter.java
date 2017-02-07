@@ -68,10 +68,15 @@ public class WordAdapter extends ArrayAdapter<Word> {
 
         ImageButton play_Icon = (ImageButton)listItemView.findViewById(R.id.play_Icon);
         final MediaPlayer mp = MediaPlayer.create(this.getContext(), currentWord.getmAudioResrouceId());
+
         play_Icon.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                mp.start();
+                if (mp.isPlaying()){
+                    mp.pause();
+                } else {
+                    mp.start();
+                }
             }
         });
 
