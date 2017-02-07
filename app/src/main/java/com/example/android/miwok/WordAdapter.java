@@ -1,13 +1,15 @@
 package com.example.android.miwok;
-import android.content.Context;
+import android.media.MediaPlayer;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.view.LayoutInflater;
 import android.app.Activity;
+import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.ImageView;
 import android.support.v4.content.ContextCompat;
+import android.media.MediaPlayer;
 
 import java.util.ArrayList;
 
@@ -63,6 +65,18 @@ public class WordAdapter extends ArrayAdapter<Word> {
         int color = ContextCompat.getColor(getContext(),mColorResourceId);
         // set background color for text container
         textContainer.setBackgroundColor(color);
+
+        ImageButton play_Icon = (ImageButton)listItemView.findViewById(R.id.play_Icon);
+        final MediaPlayer mp = MediaPlayer.create(this.getContext(), currentWord.getmAudioResrouceId());
+        play_Icon.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mp.start();
+            }
+        });
+
+
+
 
 
         return listItemView;
