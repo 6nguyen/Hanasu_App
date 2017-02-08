@@ -17,8 +17,8 @@ public class FamilyMembersActivity extends AppCompatActivity {
 
         words.add(new Word("father","Otoo-san", R.mipmap.father,R.raw.song));
         words.add(new Word("mother","Okaa-san", R.mipmap.mother,R.raw.song));
-        words.add(new Word("son","musuko", R.mipmap.son,R.raw.song));
-        words.add(new Word("daughter","musume", R.mipmap.daughter,R.raw.song));
+        words.add(new Word("son","Musuko", R.mipmap.son,R.raw.song));
+        words.add(new Word("daughter","Musume", R.mipmap.daughter,R.raw.song));
         words.add(new Word("older brother","Onii-san", R.mipmap.son,R.raw.song));
         words.add(new Word("younger brother","Otouto", R.mipmap.younger_brother,R.raw.song));
         words.add(new Word("older sister","Onee-san", R.mipmap.daughter,R.raw.song));

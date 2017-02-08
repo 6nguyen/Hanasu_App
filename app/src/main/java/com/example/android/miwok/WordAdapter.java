@@ -68,6 +68,7 @@ public class WordAdapter extends ArrayAdapter<Word> {
 
         ImageButton play_Icon = (ImageButton)listItemView.findViewById(R.id.play_Icon);
         final MediaPlayer mp = MediaPlayer.create(this.getContext(), currentWord.getmAudioResrouceId());
+        play_Icon.setBackgroundColor(color);
         play_Icon.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -78,10 +79,6 @@ public class WordAdapter extends ArrayAdapter<Word> {
                 }
             }
         });
-        play_Icon.setBackgroundColor(color);
-
-
-
 
 
         return listItemView;
