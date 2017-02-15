@@ -20,7 +20,7 @@
     android:layout_height="match_parent"
     android:background="@color/pink_background"
     android:orientation="vertical"
-    tools:context="com.example.android.miwok.MainActivity">
+    tools:context="com.example.android.hanasu.MainActivity">
 
     <!-- Numbers activity page -->
     <TextView

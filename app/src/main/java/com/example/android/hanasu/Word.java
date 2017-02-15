@@ -1,4 +1,4 @@
-package com.example.android.miwok;
+package com.example.android.hanasu;
 
 /**
  * Created by gnguy on 2/1/2017.

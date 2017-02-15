@@ -1,5 +1,4 @@
-package com.example.android.miwok;
-import android.content.Context;
+package com.example.android.hanasu;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
