@@ -38,7 +38,11 @@ DISCLAIMER:  I do not own the copyright or license to any of the borrowed materi
 	https://www.iconfinder.com/icons/1495052/circle_content_media_stop_icon#size=128
 
 - Audio
-	NipponCat, Essential Japanese phrases. (Learn 25 new phrases)
+	Phrases:
+	NipponCat, "Essential Japanese phrases. (Learn 25 new phrases)""
 	https://www.youtube.com/watch?v=ZjOzwpL9p_0
+
+	Digital Dialects, "Japanese phrases"
+	http://www.digitaldialects.com/Japanese/Phrases.htm
 
 	
