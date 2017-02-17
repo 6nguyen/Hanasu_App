@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pink_background"
+    >
+
+    <TextView
+        android:id="@+id/greetings"
+        style="@style/CategoryStyle"
+        android:background="@color/category_numbers"
+        android:text="Greetings"
+        />
+
+    <TextView
+        android:id="@+id/conversation"
+        style="@style/CategoryStyle"
+        android:background="@color/category_family"
+        android:text="Conversation" />
+
+    <TextView
+        android:id="@+id/politeness"
+        style="@style/CategoryStyle"
+        android:background="@color/category_colors"
+        android:text="Politeness" />
+
+    <TextView
+        android:id="@+id/questions"
+        style="@style/CategoryStyle"
+        android:background="@color/category_phrases"
+        android:text="Questions" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/phrases_wallpaper"
+        android:src="@drawable/sakura_wallpaper2"/>
+
+</LinearLayout>

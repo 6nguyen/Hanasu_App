@@ -1,8 +1,12 @@
 package com.example.android.hanasu;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.ImageView;
 import android.widget.ListView;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 
@@ -11,7 +15,26 @@ public class PhrasesActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.phrases_activity);
+
+        TextView greetings = (TextView)findViewById(R.id.greetings);
+        greetings.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent greetingsIntent = new Intent(PhrasesActivity.this, GreetingsActivity.class);
+                startActivity(greetingsIntent);
+            }
+        });
+
+
+        ImageView phrases_wallpaper = (ImageView)findViewById(R.id.phrases_wallpaper);
+        phrases_wallpaper.setScaleType(ImageView.ScaleType.FIT_XY);
+
+
+
+/**
         setContentView(R.layout.word_list);
+
 
         ArrayList<Word> words = new ArrayList<Word>();
 
@@ -57,5 +80,6 @@ public class PhrasesActivity extends AppCompatActivity {
         WordAdapter adapter = new WordAdapter(this, words, R.color.category_phrases);
         ListView listView = (ListView) findViewById(R.id.list);
         listView.setAdapter(adapter);
+ */
     }
 }
