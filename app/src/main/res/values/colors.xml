@@ -35,6 +35,20 @@
     <!-- Background color for the phrases category -->
     <color name="category_phrases">#0099FF</color>
 
+<!-- ************Background colors for Phrases subcategories************** -->
+
+    <!-- Background color for the numbers category -->
+    <color name="category_greetings">#FC23A9</color>
+
+    <!-- Background color for the family members category -->
+    <color name="category_conversation">#00DFAF</color>
+
+    <!-- Background color for the colors category -->
+    <color name="category_politeness">#E00000</color>
+
+    <!-- Background color for the phrases category -->
+    <color name="category_questions">#0059FF</color>
+
     <!-- Text color for all categories -->
     <color name="text_color">#FFFFFF</color>
 </resources>

@@ -9,26 +9,26 @@
     <TextView
         android:id="@+id/greetings"
         style="@style/CategoryStyle"
-        android:background="@color/category_numbers"
+        android:background="@color/category_greetings"
         android:text="Greetings"
         />
 
     <TextView
         android:id="@+id/conversation"
         style="@style/CategoryStyle"
-        android:background="@color/category_family"
+        android:background="@color/category_conversation"
         android:text="Conversation" />
 
     <TextView
         android:id="@+id/politeness"
         style="@style/CategoryStyle"
-        android:background="@color/category_colors"
+        android:background="@color/category_politeness"
         android:text="Politeness" />
 
     <TextView
         android:id="@+id/questions"
         style="@style/CategoryStyle"
-        android:background="@color/category_phrases"
+        android:background="@color/category_questions"
         android:text="Questions" />
 
     <ImageView

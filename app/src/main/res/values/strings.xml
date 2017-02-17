@@ -28,4 +28,16 @@
     <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
     <string name="category_family">Family Members</string>
 
+    <!-- Category name for the Greetings phrases from PhrasesActivity [CHAR LIMIT=20] -->
+    <string name="category_greetings">Greetings</string>
+
+    <!-- Category name for the Conversation phrases from PhrasesActivity [CHAR LIMIT=20] -->
+    <string name="category_conversation">Conversation</string>
+
+    <!-- Category name for the Politeness phrases from PhrasesActivity [CHAR LIMIT=20] -->
+    <string name="category_politeness">Politeness</string>
+
+    <!-- Category name for the Questions phrases from PhrasesActivity [CHAR LIMIT=20] -->
+    <string name="category_questions">Questions</string>
+
 </resources>

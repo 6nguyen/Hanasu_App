@@ -37,6 +37,14 @@
             android:label="@string/category_colors" />
         <activity android:name="com.example.android.hanasu.FamilyMembersActivity"
             android:label="@string/category_family"></activity>
+        <activity android:name="com.example.android.hanasu.GreetingsActivity"
+            android:label="@string/category_greetings"></activity>
+        <activity android:name="com.example.android.hanasu.ConversationActivity"
+            android:label="@string/category_conversation"></activity>
+        <activity android:name="com.example.android.hanasu.PolitenessActivity"
+            android:label="@string/category_politeness"></activity>
+        <activity android:name="com.example.android.hanasu.QuestionsActivity"
+            android:label="@string/category_questions"></activity>
     </application>
 
 </manifest>
