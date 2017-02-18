@@ -15,16 +15,15 @@ public class ColorsActivity extends AppCompatActivity {
 
         ArrayList<Word> words = new ArrayList<Word>();
 
-        words.add(new Word("red", "aka", R.mipmap.color_red,R.raw.song));
-        words.add(new Word("green", "midori iro", R.mipmap.color_green,R.raw.song));
-        words.add(new Word("pink", "pinku", R.mipmap.color_pink,R.raw.song));
-        words.add(new Word("yellow", "oudo iro", R.mipmap.color_yellow,R.raw.song));
-        words.add(new Word("blue", "ao", R.mipmap.color_blue,R.raw.song));
-        words.add(new Word("grey", "nezumi iro", R.drawable.color_gray,R.raw.song));
-        words.add(new Word("black", "kuro", R.drawable.color_black,R.raw.song));
-        words.add(new Word("white", "shiro", R.drawable.color_white,R.raw.song));
-        words.add(new Word("beige", "be-ju", R.drawable.color_dusty_yellow,R.raw.song));
-        words.add(new Word("brown", "cha iro", R.drawable.color_brown,R.raw.song));
+        words.add(new Word("red", "aka", R.mipmap.color_red,R.raw.color_aka));
+        words.add(new Word("green", "midori", R.mipmap.color_green,R.raw.color_midori));
+        words.add(new Word("blue", "ao", R.mipmap.color_blue,R.raw.color_ao));
+        words.add(new Word("pink", "momo iro", R.mipmap.color_pink,R.raw.color_momo_iro));
+        words.add(new Word("yellow", "kiro", R.mipmap.color_yellow,R.raw.color_kiro));
+        words.add(new Word("grey", "ha iro", R.drawable.color_gray,R.raw.color_hairo));
+        words.add(new Word("black", "kuro", R.drawable.color_black,R.raw.color_kuro));
+        words.add(new Word("white", "shiro", R.drawable.color_white,R.raw.color_shiro));
+        words.add(new Word("brown", "cha iro", R.drawable.color_brown,R.raw.color_chairo));
 
 
 
