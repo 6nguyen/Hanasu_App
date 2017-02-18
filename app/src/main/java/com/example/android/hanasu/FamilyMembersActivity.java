@@ -15,16 +15,16 @@ public class FamilyMembersActivity extends AppCompatActivity {
 
         ArrayList<Word> words = new ArrayList<Word>();
 
-        words.add(new Word("father","Otoo-san", R.mipmap.father,R.raw.song));
-        words.add(new Word("mother","Okaa-san", R.mipmap.mother,R.raw.song));
-        words.add(new Word("son","Musuko", R.mipmap.son,R.raw.song));
-        words.add(new Word("daughter","Musume", R.mipmap.daughter,R.raw.song));
-        words.add(new Word("older brother","Onii-san", R.mipmap.son,R.raw.song));
-        words.add(new Word("younger brother","Otouto", R.mipmap.younger_brother,R.raw.song));
-        words.add(new Word("older sister","Onee-san", R.mipmap.daughter,R.raw.song));
-        words.add(new Word("younger sister","Imouto", R.mipmap.younger_sister,R.raw.song));
-        words.add(new Word("grandmother","Obaa-san", R.mipmap.grandma,R.raw.song));
-        words.add(new Word("grandfather","Ojii-san", R.mipmap.grandpa,R.raw.song));
+        words.add(new Word("father","Otou-san", R.mipmap.father,R.raw.family_otousan));
+        words.add(new Word("mother","Okaa-san", R.mipmap.mother,R.raw.family_okaasan));
+        words.add(new Word("son","Musuko-san", R.mipmap.son,R.raw.family_musukosan));
+        words.add(new Word("daughter","Musume-san", R.mipmap.daughter,R.raw.family_musumesan));
+        words.add(new Word("older brother","Onii-san", R.mipmap.son,R.raw.family_oniisan));
+        words.add(new Word("younger brother","Otouto-san", R.mipmap.younger_brother,R.raw.family_otoutosan));
+        words.add(new Word("older sister","Onee-san", R.mipmap.daughter,R.raw.family_oneesan));
+        words.add(new Word("younger sister","Imouto-san", R.mipmap.younger_sister,R.raw.family_imoutosan));
+        words.add(new Word("grandmother","Obaa-san", R.mipmap.grandma,R.raw.family_obaasan));
+        words.add(new Word("grandfather","Ojii-san", R.mipmap.grandpa,R.raw.family_ojiisan));
         words.add(new Word("aunt","Oba-san", R.mipmap.aunt,R.raw.song));
         words.add(new Word("uncle","Oji-san", R.mipmap.uncle,R.raw.song));
 
