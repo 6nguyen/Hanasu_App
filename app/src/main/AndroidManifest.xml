@@ -14,7 +14,7 @@
      limitations under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.android.hanasu">
+    package="com.gnguyen.android.hanasu">
 
     <application
         android:allowBackup="true"
@@ -22,28 +22,28 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.example.android.hanasu.MainActivity">
+        <activity android:name="com.gnguyen.android.hanasu.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.android.hanasu.NumbersActivity"
+        <activity android:name="com.gnguyen.android.hanasu.NumbersActivity"
             android:label="@string/category_numbers"/>
-        <activity android:name="com.example.android.hanasu.PhrasesActivity"
+        <activity android:name="com.gnguyen.android.hanasu.PhrasesActivity"
             android:label="@string/category_phrases" />
-        <activity android:name="com.example.android.hanasu.ColorsActivity"
+        <activity android:name="com.gnguyen.android.hanasu.ColorsActivity"
             android:label="@string/category_colors" />
-        <activity android:name="com.example.android.hanasu.FamilyMembersActivity"
+        <activity android:name="com.gnguyen.android.hanasu.FamilyMembersActivity"
             android:label="@string/category_family"></activity>
-        <activity android:name="com.example.android.hanasu.GreetingsActivity"
+        <activity android:name="com.gnguyen.android.hanasu.GreetingsActivity"
             android:label="@string/category_greetings"></activity>
-        <activity android:name="com.example.android.hanasu.ConversationActivity"
+        <activity android:name="com.gnguyen.android.hanasu.ConversationActivity"
             android:label="@string/category_conversation"></activity>
-        <activity android:name="com.example.android.hanasu.PolitenessActivity"
+        <activity android:name="com.gnguyen.android.hanasu.PolitenessActivity"
             android:label="@string/category_politeness"></activity>
-        <activity android:name="com.example.android.hanasu.QuestionsActivity"
+        <activity android:name="com.gnguyen.android.hanasu.QuestionsActivity"
             android:label="@string/category_questions"></activity>
     </application>
 

@@ -1,4 +1,4 @@
-package com.example.android.hanasu;
+package com.gnguyen.android.hanasu;
 
 
 /**

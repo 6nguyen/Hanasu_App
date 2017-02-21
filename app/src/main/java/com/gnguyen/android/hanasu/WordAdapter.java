@@ -1,4 +1,4 @@
-package com.example.android.hanasu;
+package com.gnguyen.android.hanasu;
 
 //app/src/main/java/com/example/android/hanasu/WordAdapter.java
 import android.view.View;

@@ -1,4 +1,4 @@
-package com.example.android.hanasu;
+package com.gnguyen.android.hanasu;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -24,8 +24,6 @@ public class ColorsActivity extends AppCompatActivity {
         words.add(new Word("black", "kuro", R.drawable.color_black,R.raw.color_kuro));
         words.add(new Word("white", "shiro", R.drawable.color_white,R.raw.color_shiro));
         words.add(new Word("brown", "cha iro", R.drawable.color_brown,R.raw.color_chairo));
-
-
 
 
         // Adding a WordAdapter list of word pairs with dividers

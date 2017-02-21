@@ -1,4 +1,4 @@
-package com.example.android.hanasu;
+package com.gnguyen.android.hanasu;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
