@@ -15,7 +15,7 @@ android {
     /** Set up a device for debugging */
     buildTypes {
         debug {
-            debuggable true
+            debuggable false
         }
         release {
             minifyEnabled false
