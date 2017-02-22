@@ -50,6 +50,15 @@ public class PhrasesActivity extends AppCompatActivity {
             }
         });
 
+        TextView compliments = (TextView)findViewById(R.id.compliments);
+        compliments.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                Intent complimentsIntent = new Intent(PhrasesActivity.this, ComplimentsActivity.class);
+                startActivity(complimentsIntent);
+            }
+        });
+
         ImageView phrases_wallpaper = (ImageView)findViewById(R.id.phrases_wallpaper);
         phrases_wallpaper.setScaleType(ImageView.ScaleType.FIT_XY);
 

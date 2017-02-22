@@ -20,10 +20,11 @@ public class QuestionsActivity extends AppCompatActivity {
         ArrayList<Word> words = new ArrayList<Word>();
 
         /** Questions */
-        words.add(new Word("When?", "Itsu?", R.raw.itsu));
-        words.add(new Word("Where?", "Doko?", R.raw.doko));
-        words.add(new Word("Who?", "Dare?", R.raw.dare));
+        words.add(new Word("When is it?", "Itsu?", R.raw.itsu));
+        words.add(new Word("Where is that?", "Sore wa doko desu ka?", R.raw.phrases_sore_wa_doko_desu_ka));
+        words.add(new Word("Who is that?", "Are wa dare?", R.raw.phrases_are_wa_dare));
         words.add(new Word("Where is the toilet?", "Toire wa doko desu ka?", R.raw.toire_wa_doko_desu_ka));
+        words.add(new Word("Do you speak English?", "Eigo o hanasemasu ka?", R.raw.phrases_speak_english));
         words.add(new Word("How much is it?", "Ikura desu ka?", R.raw.ikura_desu_ka));
         words.add(new Word("Do you understand?", "Wakarimasu ka?", R.raw.wakarimasu_ka));
 

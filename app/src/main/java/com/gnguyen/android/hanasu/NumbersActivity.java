@@ -15,16 +15,16 @@ public class NumbersActivity extends AppCompatActivity {
 
         ArrayList<Word> words = new ArrayList<Word>();
 
-        words.add(new Word("one","ichi", R.mipmap.number_1,R.raw.ichi));
-        words.add(new Word("two","ni", R.mipmap.number_2,R.raw.ni));
-        words.add(new Word("three","san", R.mipmap.number_3,R.raw.san));
-        words.add(new Word("four","shi/yon", R.mipmap.number_4,R.raw.shi));
-        words.add(new Word("five","go", R.mipmap.number_5,R.raw.go));
-        words.add(new Word("six","roku", R.mipmap.number_6,R.raw.roku));
-        words.add(new Word("seven","schichi/nana", R.mipmap.number_7,R.raw.shichi));
-        words.add(new Word("eight","hachi", R.mipmap.number_8,R.raw.hachi));
-        words.add(new Word("nine","kyu", R.mipmap.number_9,R.raw.kyu));
-        words.add(new Word("ten","jyu", R.mipmap.number_10,R.raw.jyu));
+        words.add(new Word("one","ichi", R.mipmap.number_1,R.raw.numbers_ichi));
+        words.add(new Word("two","ni", R.mipmap.number_2,R.raw.numbers_ni));
+        words.add(new Word("three","san", R.mipmap.number_3,R.raw.numbers_san));
+        words.add(new Word("four","shi/yon", R.mipmap.number_4,R.raw.numbers_yon));
+        words.add(new Word("five","go", R.mipmap.number_5,R.raw.numbers_go));
+        words.add(new Word("six","roku", R.mipmap.number_6,R.raw.numbers_roku));
+        words.add(new Word("seven","schichi/nana", R.mipmap.number_7,R.raw.numbers_nana));
+        words.add(new Word("eight","hachi", R.mipmap.number_8,R.raw.numbers_hachi));
+        words.add(new Word("nine","kyu", R.mipmap.number_9,R.raw.numbers_kyu));
+        words.add(new Word("ten","jyu", R.mipmap.number_10,R.raw.numbers_jyu));
         /**
          *  No icons to represent these numbers
         words.add(new Word("eleven","jyu ichi", R.mipmap.ic_launcher3, R.raw.jyu_ichi));
@@ -33,10 +33,10 @@ public class NumbersActivity extends AppCompatActivity {
         words.add(new Word("fourteen","jyu yon", R.mipmap.ic_launcher3,R.raw.jyu_yon));
         words.add(new Word("fifteen","jyu go", R.mipmap.ic_launcher3, R.raw.jyu_go));
          */
-        words.add(new Word("twenty","ni-jyu", R.mipmap.number_20,R.raw.ni_jyu));
-        words.add(new Word("thirty","san-jyu", R.mipmap.number_30,R.raw.san_jyu));
-        words.add(new Word("forty","yon-jyu", R.mipmap.number_40,R.raw.yon_jyu));
-        words.add(new Word("one hundred","hyaku", R.mipmap.number_100,R.raw.hyaku));
+        words.add(new Word("twenty","ni-jyu", R.mipmap.number_20,R.raw.numbers_ni_jyu));
+        words.add(new Word("thirty","san-jyu", R.mipmap.number_30,R.raw.numbers_san_jyu));
+        words.add(new Word("forty","yon-jyu", R.mipmap.number_40,R.raw.numbers_yon_jyu));
+        words.add(new Word("one hundred","hyaku", R.mipmap.number_100,R.raw.numbers_hyaku));
         //words.add(new Word("two hundred","nihyaku", R.mipmap.ic_launcher));
         //words.add(new Word("three hundred","sanbyaku", R.mipmap.ic_launcher));
 

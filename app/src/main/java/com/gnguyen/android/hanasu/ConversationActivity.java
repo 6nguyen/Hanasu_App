@@ -25,6 +25,7 @@ public class ConversationActivity extends AppCompatActivity {
         words.add(new Word("Good luck!", "Ganbatte kudasai!", R.raw.ganbatte_kudasai));
         words.add(new Word("Please wait a moment", "Chotto matte kudosai", R.raw.chotto_matte_kudosai));
         words.add(new Word("No good", "Dame desu", R.raw.dame_desu));
+        words.add(new Word("Let's have fun!", "Tanoshimou!", R.raw.phrases_tanashimo));
         words.add(new Word("Thank you for the meal", "Gochisou sama", R.raw.gochisousama));
         words.add(new Word("Let's eat!", "Itadakimasu!", R.raw.itadakimasu));
         words.add(new Word("I don't understand", "Wakarimasen", R.raw.wakarimasen));

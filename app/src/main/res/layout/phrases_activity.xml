@@ -31,6 +31,12 @@
         android:background="@color/category_questions"
         android:text="Questions" />
 
+    <TextView
+        android:id="@+id/compliments"
+        style="@style/CategoryStyle"
+        android:background="@color/category_compliments"
+        android:text="Compliments"/>
+
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"

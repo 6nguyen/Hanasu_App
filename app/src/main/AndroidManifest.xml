@@ -45,6 +45,8 @@
             android:label="@string/category_politeness"></activity>
         <activity android:name="com.gnguyen.android.hanasu.QuestionsActivity"
             android:label="@string/category_questions"></activity>
+        <activity android:name="com.gnguyen.android.hanasu.ComplimentsActivity"
+            android:label="Compliments"></activity>
     </application>
 
 </manifest>
