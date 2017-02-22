@@ -25,8 +25,8 @@ public class FamilyMembersActivity extends AppCompatActivity {
         words.add(new Word("younger sister","Imouto-san", R.mipmap.younger_sister,R.raw.family_imoutosan));
         words.add(new Word("grandmother","Obaa-san", R.mipmap.grandma,R.raw.family_obaasan));
         words.add(new Word("grandfather","Ojii-san", R.mipmap.grandpa,R.raw.family_ojiisan));
-        words.add(new Word("aunt","Oba-san", R.mipmap.aunt,R.raw.song));
-        words.add(new Word("uncle","Oji-san", R.mipmap.uncle,R.raw.song));
+        words.add(new Word("aunt","Oba-san", R.mipmap.aunt,R.raw.family_oba));
+        words.add(new Word("uncle","Oji-san", R.mipmap.uncle,R.raw.family_oji));
 
 
         // Adding a WordAdapter list of word pairs with dividers
