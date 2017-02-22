@@ -41,6 +41,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/phrases_wallpaper"
-        android:src="@drawable/sakura_wallpaper2"/>
+        android:src="@drawable/background_japanbanner"/>
 
 </LinearLayout>

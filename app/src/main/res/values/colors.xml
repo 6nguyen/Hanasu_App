@@ -50,7 +50,7 @@
     <color name="category_questions">#0059FF</color>
 
     <!-- Background color for the compliments category -->
-    <color name="category_compliments">#FFFA00</color>
+    <color name="category_compliments">#A74AC7</color>
 
     <!-- Text color for all categories -->
     <color name="text_color">#FFFFFF</color>
