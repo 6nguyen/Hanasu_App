@@ -1,5 +1,6 @@
 package com.gnguyen.android.hanasu;
 
+import android.support.v4.app.NavUtils;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import java.util.ArrayList;
@@ -12,6 +13,13 @@ public class NumbersActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.word_list);
+        /**
+         *  since android:theme AppCompat.Light.DarkActionBar does not support ActionBar,
+         *  must use getSupportActionBar() instead of getActionBar()
+         */
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+
 
         ArrayList<Word> words = new ArrayList<Word>();
 

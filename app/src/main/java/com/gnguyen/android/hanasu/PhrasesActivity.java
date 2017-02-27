@@ -13,6 +13,8 @@ public class PhrasesActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.phrases_activity);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
 
         TextView greetings = (TextView)findViewById(R.id.greetings);
         greetings.setOnClickListener(new View.OnClickListener() {
@@ -61,7 +63,6 @@ public class PhrasesActivity extends AppCompatActivity {
 
         ImageView phrases_wallpaper = (ImageView)findViewById(R.id.phrases_wallpaper);
         phrases_wallpaper.setScaleType(ImageView.ScaleType.FIT_XY);
-
 
     }
 }
