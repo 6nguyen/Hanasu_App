@@ -19,7 +19,9 @@ public class GreetingsActivity extends AppCompatActivity {
 
         ArrayList<Word> words = new ArrayList<Word>();
 
-        /** Greetings */
+
+
+        /** Greetings *
         words.add(new Word("Hello", "Konichiwa", R.raw.konichiwa));
         words.add(new Word("Goodbye", "Sayonara", R.raw.sayonara));
         words.add(new Word("Good morning", "Ohayo gozaimasu", R.raw.ohayou_goazimasi));
@@ -33,5 +35,7 @@ public class GreetingsActivity extends AppCompatActivity {
         WordAdapter adapter = new WordAdapter(this, words, R.color.category_greetings);
         ListView listView = (ListView) findViewById(R.id.list);
         listView.setAdapter(adapter);
+
+        */
     }
 }

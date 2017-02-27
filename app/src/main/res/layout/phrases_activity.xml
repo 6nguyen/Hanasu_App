@@ -7,7 +7,9 @@
     android:parentActivityName="activity_main.xml"
     >
 
-    <!-- Greetings activity -->
+    <!-- Greetings activity
+    background="?android:attr/selectableItemBackground" creates ripple effect on click
+    -->
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
