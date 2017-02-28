@@ -14,12 +14,15 @@ public class ComplimentsActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.word_list);
+        setContentView(R.layout.activity_category);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportFragmentManager().beginTransaction().replace(R.id.container, new fragmentCompliments()).commit();
 
+
+/**
         ArrayList<Word> words = new ArrayList<Word>();
 
-        /** Compliments  */
+        /** Compliments
         words.add(new Word("You look amazing!", "Subarashi!", R.raw.phrases_subarashi));
         words.add(new Word("You are so cute", "Anata wa hontoni kawai desu", R.raw.phrase_kawaii));
         words.add(new Word("You are really pretty", "Anata wa tottemo kirei desu", R.raw.phrase_kirei));
@@ -36,7 +39,7 @@ public class ComplimentsActivity extends AppCompatActivity {
         WordAdapter adapter = new WordAdapter(this, words, R.color.category_compliments);
         ListView listView = (ListView)findViewById(R.id.list);
         listView.setAdapter(adapter);
+
+ */
     }
-
-
 }
