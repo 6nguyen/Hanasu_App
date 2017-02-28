@@ -1,6 +1,7 @@
 package com.gnguyen.android.hanasu;
 
 import android.content.Intent;
+import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -13,9 +14,21 @@ public class PhrasesActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.phrases_activity);
+        // Up button on ActionBar
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
+        // Find the view pager that will allow user to swipe between fragments
+        ViewPager viewPager = (ViewPager)findViewById(R.id.view_pager);
 
+        // create an adapter that shows which fragment should be displayed for each page
+        FragmentPageViewer adapter = new FragmentPageViewer(getSupportFragmentManager(), this);
+        //FragmentPageViewer adapter = new FragmentPageViewer(getSupportFragmentManager());
+        // set the adapter onto the ViewPager
+        viewPager.setAdapter(adapter);
+
+/**
+ * // Code for listView version of menu, using menu options that open associated activities
+ *
         TextView greetings = (TextView)findViewById(R.id.greetings);
         greetings.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -63,6 +76,6 @@ public class PhrasesActivity extends AppCompatActivity {
 
         ImageView phrases_wallpaper = (ImageView)findViewById(R.id.phrases_wallpaper);
         phrases_wallpaper.setScaleType(ImageView.ScaleType.FIT_XY);
-
+*/
     }
 }

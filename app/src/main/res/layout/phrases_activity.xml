@@ -7,6 +7,18 @@
     android:parentActivityName="activity_main.xml"
     >
 
+    <!-- ViewPager -->
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/view_pager">
+
+        <!-- Fragment title style found in styles.xml -->
+        <android.support.v4.view.PagerTitleStrip
+           style="@style/FragmentTitleStyle" />
+
+    </android.support.v4.view.ViewPager>
+    
     <!-- Greetings activity
     background="?android:attr/selectableItemBackground" creates ripple effect on click
     -->

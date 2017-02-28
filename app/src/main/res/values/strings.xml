@@ -40,4 +40,6 @@
     <!-- Category name for the Questions phrases from PhrasesActivity [CHAR LIMIT=20] -->
     <string name="category_questions">Questions</string>
 
+    <!-- Category name for the Compliments phrases from PhrasesACtivity -->
+    <string name="category_compliments">Compliments</string>
 </resources>
