@@ -24,6 +24,7 @@ public class fragmentPoliteness  extends Fragment{
         /** Politeness */
         words.add(new Word("Thank you", "Doumo arigato gozaimasu!", R.raw.doumo_arigato_gozaimasu));
         words.add(new Word("You're welcome", "Dou itashimashite", R.raw.dou_itashimashite));
+        words.add(new Word("Thank you for the meal", "Gochisou sama", R.raw.gochisousama));
         words.add(new Word("Sorry", "Gomennasai", R.raw.gomennasai));
         words.add(new Word("Go Ahead", "Dozo", R.raw.dozo));
         words.add(new Word("Excuse me", "Sumimasen", R.raw.sumimasen));

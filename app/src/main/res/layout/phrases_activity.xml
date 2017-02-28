@@ -18,7 +18,9 @@
            style="@style/FragmentTitleStyle" />
 
     </android.support.v4.view.ViewPager>
-    
+
+
+<!-- ALL CODE BELOW THIS POINT DOES NOT APPLY, SINCE A PAGEVIEWER IS CURRENTLY IMPLEMENTED -->
     <!-- Greetings activity
     background="?android:attr/selectableItemBackground" creates ripple effect on click
     -->
