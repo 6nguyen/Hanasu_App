@@ -15,12 +15,17 @@ public class ConversationActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.word_list);
+        // set to display layout of activity_category instead of word_list
+        setContentView(R.layout.activity_category);
+        // set the class to open up a fragment instead of an activity
+        getSupportFragmentManager().beginTransaction().replace(R.id.container, new fragmentConversations()).commit();
+
+        /**
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         ArrayList<Word> words = new ArrayList<Word>();
 
-        /** Conversation */
+        /** Conversation
         words.add(new Word("How are you?", "Ogenki desu ka", R.raw.ogenki_desu_ka));
         words.add(new Word("How was it?", "Dou datta ka", R.raw.dou_datta_ka));
         words.add(new Word("Good luck!", "Ganbatte kudasai!", R.raw.ganbatte_kudasai));
@@ -39,5 +44,7 @@ public class ConversationActivity extends AppCompatActivity {
         WordAdapter adapter = new WordAdapter(this, words, R.color.category_conversation);
         ListView listView = (ListView) findViewById(R.id.list);
         listView.setAdapter(adapter);
+
+         */
     }
 }

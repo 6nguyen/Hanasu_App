@@ -14,7 +14,10 @@ public class GreetingsActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.word_list);
+        setContentView(R.layout.activity_category);
+        getSupportFragmentManager().beginTransaction().replace(R.id.container, new fragmentGreetings()).commit();
+
+        /**
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         ArrayList<Word> words = new ArrayList<Word>();
