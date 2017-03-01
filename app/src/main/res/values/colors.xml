@@ -54,4 +54,7 @@
 
     <!-- Text color for all categories -->
     <color name="text_color">#FFFFFF</color>
+
+    <!-- Secondary Text color for TabLayout -->
+    <color name="text_secondary_color">#C0C2C3</color>
 </resources>

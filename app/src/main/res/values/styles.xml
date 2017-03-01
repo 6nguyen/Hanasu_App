@@ -51,6 +51,13 @@
         <item name="tabIndicatorColor">?attr/colorAccent</item>
     </style>
 
+    <!-- Style for fragment TabLayout text -->
+    <style name="TabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">@color/text_secondary_color</item>
+        <item name="textAllCaps">false</item>
+    </style>
+
     <!-- <item name=""></item> -->
 
 </resources>
