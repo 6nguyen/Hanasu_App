@@ -55,7 +55,8 @@ public class FragmentPageViewer extends FragmentPagerAdapter {
     public CharSequence getPageTitle(int position) {
         switch(position){
             case 0:
-                return context.getString(R.string.category_greetings);
+                return "Greetings";
+                //return context.getString(R.string.category_greetings);
             case 1:
                 return context.getString(R.string.category_conversation);
             case 2:

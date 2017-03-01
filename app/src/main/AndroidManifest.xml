@@ -43,21 +43,6 @@
         <activity android:name="com.gnguyen.android.hanasu.FamilyMembersActivity"
             android:label="@string/category_family"
             android:parentActivityName=".MainActivity"></activity>
-        <activity android:name="com.gnguyen.android.hanasu.GreetingsActivity"
-            android:label="@string/category_greetings"
-            android:parentActivityName=".PhrasesActivity"></activity>
-        <activity android:name="com.gnguyen.android.hanasu.ConversationActivity"
-            android:label="@string/category_conversation"
-            android:parentActivityName=".PhrasesActivity"></activity>
-        <activity android:name="com.gnguyen.android.hanasu.PolitenessActivity"
-            android:label="@string/category_politeness"
-            android:parentActivityName=".PhrasesActivity"></activity>
-        <activity android:name="com.gnguyen.android.hanasu.QuestionsActivity"
-            android:label="@string/category_questions"
-            android:parentActivityName=".PhrasesActivity"></activity>
-        <activity android:name="com.gnguyen.android.hanasu.ComplimentsActivity"
-            android:label="Compliments"
-            android:parentActivityName=".PhrasesActivity"></activity>
     </application>
 
 </manifest>

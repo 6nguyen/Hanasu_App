@@ -32,8 +32,8 @@
         <item name="android:textAppearance">?android:textAppearanceMedium</item>
     </style>
 
-    <!-- Style for fragment titles -->
-    <style name="FragmentTitleStyle">
+    <!-- Style for fragment PagerTitleStrip; scrollable title strip -->
+    <style name="FragmentTitleStrip">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_gravity">top</item>
@@ -43,4 +43,14 @@
         <item name="android:textSize">@dimen/title_font_size</item>
         <item name="android:textStyle">bold</item>
     </style>
+
+    <!-- Style for fragment TabLayout; semi-fixed sliding title tab -->
+    <style name="FragmentTabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabMode">scrollable</item>
+        <item name="tabTextColor">?attr/color</item>
+        <item name="tabIndicatorColor">?attr/colorAccent</item>
+    </style>
+
+    <!-- <item name=""></item> -->
+
 </resources>
