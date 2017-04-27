@@ -4,6 +4,9 @@ Hanasu App
 This app contains common Japanese phrases and words for those
 traveling to Japan.
 
+- Custom adapter to hold and seamlessly scroll through mediaPlayers, imageButtons, and text
+- Swipeable left/right preference screens for ease of access
+
 Pre-requisites
 --------------
 
